@@ -43,7 +43,7 @@ export default function Module_9() {
                 5]write  npm -v (to check version of node)</p>
 
             <h3>8. How to check version of React Js?</h3>
-            <p> ans: </p>
+            <p> ans: npm view react version </p>
 
             <h3> 9.How to change in components of React Js?</h3>
             <p> ans:Using usestate hook we can change in component.
