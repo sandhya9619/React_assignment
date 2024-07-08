@@ -6,7 +6,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { AutoAwesome, KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
+import {KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
 import GridViewIcon from '@mui/icons-material/GridView';
 import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
