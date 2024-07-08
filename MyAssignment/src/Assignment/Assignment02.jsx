@@ -7,6 +7,7 @@ export default function Assignment02() {
 
 
     useEffect(() => {
+        fetchUserdata();
         console.log("User Data")
     })
 
@@ -16,6 +17,7 @@ export default function Assignment02() {
 
     useEffect(() => {
         fetchUserdata();
+        console.log("hey");
     }, [])
 
     const fetchUserdata = async () => {
