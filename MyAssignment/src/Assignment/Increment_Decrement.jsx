@@ -21,13 +21,13 @@ export default function Increment_Decrement() {
     }
 
   return (
-    <div>
-        <h3>React Web</h3>
-        <h1 >{number}</h1>
-        <button onClick={handledecrement}>Decrement</button>
-        <button onClick={handleincrement}>Increment</button>
+    <div style={{border:"1px solid black", width:"30%",height:"300px",textAlign:"center",marginLeft:"420px"}}>
+        <h1>Counter App</h1>
+        <h1 style={{fontSize:"40px"}}>{number}</h1>
+        <button style={{backgroundColor:"green", border:"2px solid grey",padding:"10px",width:"110px",borderRadius:"5px"}} onClick={handleincrement}>Increment</button>
+        <button style={{backgroundColor:"red", border:"2px solid grey",padding:"10px",width:"110px",borderRadius:"5px",margin:"10px"}}  onClick={handledecrement}>Decrement</button>
         <br />
-        <button onClick={handlereset}>Reset</button>
+        <button style={{backgroundColor:"grey",color:"white", border:"2px solid grey",padding:"10px",width:"110px",borderRadius:"5px"}} onClick={handlereset}>Reset</button>
     </div>
   )
 }
